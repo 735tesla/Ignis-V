@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="422.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ignis.v.SampleController">
+  <children>
+    <Button id="button" fx:id="attackBtn" layoutX="277.0" layoutY="84.0" onAction="#handleButtonAction" prefHeight="21.999900000002526" prefWidth="104.0" text="Start Attack" />
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" />
+    <TextField id="attackBtn" fx:id="addrField" layoutX="71.0" layoutY="84.0" onKeyPressed="#handleTextFieldAction" onKeyReleased="#handleTextFieldAction" onKeyTyped="#handleTextFieldAction" prefWidth="200.0" promptText="Target Address" />
+    <Slider fx:id="threadSlider" layoutX="71.0" layoutY="120.0" max="1024.0" min="1.0" minorTickCount="1" onMouseDragged="#handleSliderAction" snapToTicks="true" />
+    <TextField fx:id="threadField" layoutX="230.0" layoutY="117.0" prefWidth="63.0" />
+    <Text layoutX="10.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Threads" />
+    <Text layoutX="14.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Victim" />
+    <Label layoutX="10.0" layoutY="24.0" text="Attack Control Panel">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
