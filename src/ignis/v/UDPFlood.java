@@ -24,7 +24,7 @@ public class UDPFlood {
     public UDPFlood(String target, int threads) {
         this.target = target;
         this.threads = threads;
-        flooders = new ArrayList<>();
+        //flooders = new ArrayList<>();
     }
     public UDPFlood() {
         flooders = new ArrayList<>();
@@ -39,6 +39,7 @@ public class UDPFlood {
         return running;
     }
     public void start() {
+        flooders = new ArrayList<>();
         System.out.println("Startiing up with "+threads+" threads. . .");
         running = true;
         System.out.println("Starting attack. . .");
