@@ -17,7 +17,9 @@ This program was written for educational purposes only. It is not meant to be us
 If you want to use any of this in your own project:
 ---------------------------------------------------
 Please feel free to copy and paste bits of this code anywhere you want. If you want to include the whole project within yours go ahead! None of this is copyrighted or anything. I have two requests, which are completely legal to violate but would make me sad if you did:
+
   1) If you're including my project could you send me and email with the link to yours? I'm curious how this is being used
+  
   2) This isn't as important as #1 but if you could leave some credit to me (735Tesla) it would make me happy
   
 Please be nice:
